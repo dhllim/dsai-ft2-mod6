@@ -17,6 +17,7 @@ import datetime
 #os.environ["GROQ_API_KEY"] = ""
 #os.environ["GROQ_API_KEY"] = os.environ.get('GROQ_API_KEY')
 
+
 client = Groq()
 
 app = Flask(__name__)
